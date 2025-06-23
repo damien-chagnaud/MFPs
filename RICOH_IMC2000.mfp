@@ -1,0 +1,31 @@
+{
+    "name": "IM C2000",
+	"sysname": "RIMC2000",
+	"family": "Metis MF3",
+	"version": 1750294537,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "",
+	"consumables":[
+		{"name":"Toner", "life":"", "ref":"IMC2500", "cde":"", "cdext":""},
+		{"name":"Waste Toner", "life":"", "ref":"D0BQ6400", "cde":"1ZSD0BQ64000", "cdext":""}
+	],
+    "data_units": "\n    Fusing: D0BM4022 \n    PaperExit: D0BK4405",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU K", "ref":"D0BK2240"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU C", "ref":"D0BK2241"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU M", "ref":"D0BK2242"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU Y", "ref":"D0BK2243"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper BK", "ref":"D0BQ3242"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper C", "ref":"D0BQ3272"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper M", "ref":"D0BQ3282"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper Y", "ref":"D0BQ3312"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt", "ref":"D0BQ6009"},
+		{"cat":"FUSION", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D0BM4052"},
+		{"cat":"FUSION", "pm":"true", "life":"0k", "name":"R. Press", "ref":"AE020282"}
+	]
+}

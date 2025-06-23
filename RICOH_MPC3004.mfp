@@ -1,0 +1,32 @@
+{
+    "name": "MP C3004",
+	"sysname": "RMPC3004",
+	"family": "Metis C2",
+	"version": 1.0,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n    Toner: MPC3503 \n    Waste Toner:D2426400",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCU", "pm":"true", "life":"0k", "name":"PCU CMY", "ref":"D2392239"},
+		{"cat":"PCU", "pm":"true", "life":"0k", "name":"PCU BK", "ref":"D2392240"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit K", "ref":"D2423060"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit C", "ref":"D2393061"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit M", "ref":"D2393062"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit Y", "ref":"D2393063"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper BK", "ref":"D0BQ3242"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper C", "ref":"D0BQ3272"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper M", "ref":"D0BQ3282"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper Y", "ref":"D0BQ3312"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"AE020238"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Ball Bering x2", "ref":"AE030074"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D2394042"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Clean ITB", "ref":"D2416141"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt Unit", "ref":"D2416001"},
+		{"cat":"PTR", "pm":"true", "life":"0k", "name":"Paper Transfert Roller", "ref":"D2416212"}
+	]
+}

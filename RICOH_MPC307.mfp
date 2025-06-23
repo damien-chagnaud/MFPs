@@ -1,0 +1,27 @@
+{
+    "name": "MP C307",
+	"sysname": "RMPC307",
+	"family": "riffin C3",
+	"version": 1.0,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n    Toner: MPC406-306-307 \n    Waste Toner: D0CB-6401",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU BK", "ref":"D2970122"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU C", "ref":"D2970126"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU M", "ref":"D2970127"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU Y", "ref":"D2970128"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper BK", "ref":"D1963302"},
+		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper CMY", "ref":"D1963303"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt Unit", "ref":"D1966002"},
+		{"cat":"PTR", "pm":"true", "life":"0k", "name":"Paper Transfert Roller", "ref":"D1966201"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"BE020207"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"New unit detection", "ref":"M0264371"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D2964037"}
+	]
+}

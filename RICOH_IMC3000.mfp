@@ -1,0 +1,34 @@
+{
+    "name": "IM C3000",
+	"sysname": "RIMC3000",
+	"family": "Metis MF3",
+	"version": 1750294537,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "",
+	"consumables":[
+		{"name":"Toner", "life":"", "ref":"IMC3500", "cde":"", "cdext":""},
+		{"name":"Waste Toner", "life":"", "ref":"D0BQ6400", "cde":"1ZSD0BQ64000", "cdext":""}
+	],
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU K", "ref":"D0BM2224", "cde":"1ZSD0BM2215"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU C", "ref":"D0BM2211", "cde":"1ZSD0B2221"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU M", "ref":"D0BM2212", "cde":"1ZSD0BM2222"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU Y", "ref":"D0BM2213", "cde":"1ZSD0BM2223"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Drum Col", "ref":"D0BM2216", "cde":"1ZSD0BM2216"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Drum BK", "ref":"D0BM2215", "cde":"1ZSD0BM2215"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Unit C", "ref":"D0BM3001", "cde":"1ZSD0BM3001"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Unit M", "ref":"D0BM3002", "cde":"1ZSD0BM3002"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Unit Y", "ref":"D0BM3003", "cde":"1ZSD0BM3003"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Unit K", "ref":"D0BM3000", "cde":"1ZSD0BM3000"},
+		{"cat":"Fusing", "pm":"false", "life":"0k", "name":"Fusing Unit", "ref":"D0BM4022", "cde":"1ZSD0BM4042"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D0BM4052", "cde":"1ZSD0BM4052"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Pressure R.", "ref":"AE020282", "cde":"1ZSAE020282"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt Unit", "ref":"D0BQ6009", "cde":"1ZSD0BQ6009"}
+	]
+}

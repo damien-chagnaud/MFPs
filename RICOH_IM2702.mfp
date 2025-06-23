@@ -1,0 +1,28 @@
+{
+    "name": "IM 2702",
+	"sysname": "RIM2702",
+	"family": "BRIC MF2",
+	"version": 1.0,
+    "brand": "RICOH",
+    "type": "nb",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n    Toner: MP 3353/MP 2014",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Drum", "ref":"B0399510"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Charge Roll", "ref":"AD027018"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Cleaning blade", "ref":"D2452281"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Developper K", "ref":"D2459640"},
+		{"cat":"Transfert", "pm":"true", "life":"0k", "name":"PTR", "ref":"D0B23821"},
+		{"cat":"Transfert", "pm":"true", "life":"0k", "name":"Electrode Plate:", "ref":"D1583890"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Hot Roller", "ref":"AE011149"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"AE020263"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Stripper pawls (x4)", "ref":"AE044076"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Thermistor fusing", "ref":"AW100197"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Bushing Pressure Roller", "ref":"D2454174"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Hot roller Bearing", "ref":"D2454299"}
+	]
+}

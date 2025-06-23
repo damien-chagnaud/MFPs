@@ -1,0 +1,22 @@
+{
+    "name": "IM C300",
+	"sysname": "RIMC300",
+	"family": "Griffin C4",
+	"version": 1745848000,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n    Toner: IM C300 (1CWGIMC300 ou 1CVGIMC300) \n    Waste Toner: D0CB6401 (1ZSD0CB6401)",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU K", "ref":"D0CB0121", "cde":"1ZSD0CB0121", "cde2":"1ZSD0CB0125"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU C", "ref":"D0CB0122", "cde":"1ZSD0CB0122", "cde2":"1ZSD0CB0126"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU M", "ref":"D0CB0123", "cde":"1ZSD0CB0123", "cde2":"1ZSD0CB0127"},
+		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU Y", "ref":"D0CB0124", "cde":"1ZSD0CB0124", "cde2":"1ZSD0CB0128"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt", "ref":"D0CB6002", "cde":"1ZSD0CB6002"},
+		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Fusing unit", "ref":"D0C94032", "cde":"1ZSD0C94032", "cde2":"1ZSD0CB4032"}
+	]
+}

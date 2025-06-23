@@ -1,0 +1,38 @@
+{
+    "name": "BP-50C55",
+	"sysname": "SBP50C55",
+	"family": "Phoenix CR5",
+	"version": 1750685680,
+    "brand": "SHARP",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "",
+	"consumables":[
+		{"name":"Toner BK", "life":"", "ref":"BP-70GTBK", "cde":"1DBHMBPGT70BA", "cdext":""},
+		{"name":"Toner C", "life":"", "ref":"BP-70GTC", "cde":"1DCHBPGT70CA", "cdext":""},
+		{"name":"Toner M", "life":"", "ref":"BP-70GTM", "cde":"1DCHBPGT70MA", "cdext":""},
+		{"name":"Toner Y", "life":"", "ref":"BP-70GTY", "cde":"1DCHBPGT70YA", "cdext":""},
+		{"name":"Waste Toner", "life":"50k", "ref":"BP700HB", "cde":"1DXHBPHB700", "cdext":""}
+	],
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Drum", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Charge Kit", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"true", "life":"1800k", "name":"Dev K", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"true", "life":"1800k", "name":"Dev CMY", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit Bk", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit C", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit M", "ref":"", "cde":""},
+		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit Y", "ref":"", "cde":""},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Fusing belt", "ref":"", "cde":""},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Pressure Roll", "ref":"", "cde":""},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Paper enter guide", "ref":"", "cde":""},
+		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Belt", "ref":"", "cde":""},
+		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Blade Cleanner", "ref":"", "cde":""},
+		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Clean Unit", "ref":"CFRM-1699DS55", "cde":"CFRM-1699DS55"},
+		{"cat":"PTU", "pm":"true", "life":"300k", "name":"PTC Kit", "ref":"", "cde":""}
+	]
+}

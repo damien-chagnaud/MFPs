@@ -1,0 +1,30 @@
+{
+    "name": "MX-M3050",
+	"sysname": "SMX-M3050",
+	"family": "BGriffin",
+	"version": 1.0,
+    "brand": "SHARP",
+    "type": "bk",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n   Toner: MX561GT \n\n   Waste Toner:MX609HB (300K)",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Drum", "ref":"MX560DR"},
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Dev K", "ref":"MX561GV"},
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Net Kit", "ref":"MX609CH"},
+		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Charge Corona", "ref":"MX609MC"},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Fusion Belt", "ref":"MX609FB"},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Hot Roll", "ref":"MX609HR"},
+		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Pressure Roll", "ref":"MX609LH"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Sub heat roller thermistor", "area":"Back down", "ref":"RDTCT0034QSZZ"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermostat", "area":"Down (x2)", "ref":"RTHM-0055FCZZ"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermistor", "area":"Left Down Middle (x2)", "ref":"RDTCT0032QSZZ"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Non-contact thermistor", "area":"Lower Middle Left", "ref":"RDTCT0033QSZZ"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Non-contact thermistor", "area":"Lower Back", "ref":"RDTCT0032QSZZ"},
+		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Sub heat roller thermistor", "area":"Back Front", "ref":"RDTCT0034QSZZ"},
+		{"cat":"PTU", "pm":"true", "life":"250k", "name":"PTR", "ref":"MX609TK"}
+	]
+}

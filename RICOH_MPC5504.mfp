@@ -1,0 +1,28 @@
+{
+    "name": "MP C5504",
+	"sysname": "RMPC5504",
+	"family": "Metis C2",
+	"version": 1.0,
+    "brand": "RICOH",
+    "type": "col",
+    "path": " ",
+    "raw": " ",
+    "data_cons": "\n    Toner: MPC6003 \n    Waste Toner: D2426410",
+    "data_units": " ",
+	"data_parts": " ",
+	"data_div": " ",
+	"parts": [
+		{"cat":"PCU", "pm":"true", "life":"0k", "name":"PCU K", "ref":"D2392245"},
+		{"cat":"PCU", "pm":"true", "life":"0k", "name":"PCU CMY", "ref":"D2422245"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit K", "ref":"D2423091"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit C", "ref":"D2423092"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit M", "ref":"D2423093"},
+		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit Y", "ref":"D2423094"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"AE020261"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Ball Bering x5", "ref":"AE030074"},
+		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D2424042"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Clean ITB", "ref":"D0BQ6141"},
+		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt Unit", "ref":"D2416005"},
+		{"cat":"PTR", "pm":"true", "life":"0k", "name":"Paper transfert Roller", "ref":"D0BQ6212"}
+	]
+}
