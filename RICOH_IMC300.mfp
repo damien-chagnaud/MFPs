@@ -2,12 +2,19 @@
     "name": "IM C300",
 	"sysname": "RIMC300",
 	"family": "Griffin C4",
-	"version": 1745848000,
+	"version": 1751546061,
     "brand": "RICOH",
     "type": "col",
     "path": " ",
     "raw": " ",
-    "data_cons": "\n    Toner: IM C300 (1CWGIMC300 ou 1CVGIMC300) \n    Waste Toner: D0CB6401 (1ZSD0CB6401)",
+    "data_cons": "",
+	"consumables":[
+		{"name":"Toner BK", "life":"", "ref":"IMC300BK", "cde":"1CVGIMC300", "cdext":""},
+		{"name":"Toner C", "life":"", "ref":"IMC300C", "cde":"1CWGIMC300C", "cdext":""},
+		{"name":"Toner M", "life":"", "ref":"IMC300M", "cde":"1CWGIMC300M", "cdext":""},
+		{"name":"Toner Y", "life":"", "ref":"IMC300Y", "cde":"1CWGIMC300Y", "cdext":""},
+		{"name":"Waste Toner", "life":"50k", "ref":"D0CB6401", "cde":"1ZSD0CB6401", "cdext":""}
+	],
     "data_units": " ",
 	"data_parts": " ",
 	"data_div": " ",
@@ -17,6 +24,7 @@
 		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU M", "ref":"D0CB0123", "cde":"1ZSD0CB0123", "cde2":"1ZSD0CB0127"},
 		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"PCDU Y", "ref":"D0CB0124", "cde":"1ZSD0CB0124", "cde2":"1ZSD0CB0128"},
 		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt", "ref":"D0CB6002", "cde":"1ZSD0CB6002"},
+		{"cat":"PTR", "pm":"true", "life":"0k", "name":"Paper Transfert Unit", "ref":"D0CB6201", "cde":"1ZSD0CB6201"},
 		{"cat":"Fusing", "pm":"true", "life":"0k", "name":"Fusing unit", "ref":"D0C94032", "cde":"1ZSD0C94032", "cde2":"1ZSD0CB4032"}
 	]
 }
