@@ -1,56 +1,372 @@
 {
-    "name": "IM C8000",
-	"sysname": "RIMC8000",
-	"family": "Charis C3",
-	"version": "1750865182",
-    "brand": "RICOH",
-    "type": "col",
-    "path": " ",
-    "raw": " ",
-    "data_cons": "\n\t\t Toner: MPC 8003",
-	"consumables":[
-		{"name":"Toner BK", "life":"", "ref":"MPC8000BK", "cde":"", "cdext":""},
-		{"name":"Toner C", "life":"", "ref":"MPC8000C", "cde":"", "cdext":""},
-		{"name":"Toner M", "life":"", "ref":"MPC8000M", "cde":"1", "cdext":""},
-		{"name":"Toner Y", "life":"", "ref":"MPC8000Y", "cde":"", "cdext":""},
-		{"name":"Waste Toner", "life":"50k", "ref":"BP700HB", "cde":"", "cdext":""}
-	],
-    "data_units": "\n\n\t Charge Unit: D2583531 \n\n\t Cleaning Unit: D0CN2331 \n\n\t Dev Unit: D0CN0150 \n\n",
-	"data_parts": " ",
-	"data_div": " ",
-	"parts": [
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Charge Unit", "ref":"D2583531"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Cleaning Unit", "ref":"D2582332"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Unit", "ref":"D0CN0150"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Drum DIA60", "ref":"D2589510"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev BK", "ref":"D2589640"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev C", "ref":"D2589660"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev M", "ref":"D2589670"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Y", "ref":"D2589680"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Dev Filter x4", "ref":"D1363431"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Blade Cleaning", "ref":"D1362365"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Oil Supply Roll", "ref":"D2582402"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Coating Bar", "ref":"D2582411"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Blade Apply", "ref":"D1362441"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Seal Apply Blade Front", "ref":"D1362446"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Seal Apply Blade Rear", "ref":"D1362447"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Seal Cleaning Blade Front", "ref":"D1362448"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Seal Cleaning Blade Rear", "ref":"D1362449"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Gear n1", "ref":"D0CN2462"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Gear n2", "ref":"D0CN2408"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Gear n3 (x2)", "ref":"D0CN2461"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Gear n4", "ref":"D0CN2463"},
-		{"cat":"PCDU", "pm":"true", "life":"0k", "name":"Joint Cleaning Unit", "ref":"D2582459"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Hot Roller", "ref":"D0CN4169"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Ball Bering Hot Roller (x2)", "ref":"AE030059"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Heat Roller", "ref":"D0CN4315"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Heat roller Flange Front", "ref":"D2584464"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Heat roller Flange Rear", "ref":"D2584465"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"D0CN4218"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Ball Bering Pressure Roller (x2)", "ref":"AE030059"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Flat Belt", "ref":"D2584480"},
-		{"cat":"FUSING", "pm":"false", "life":"0k", "name":"Thermistor", "ref":"AW100179"},
-		{"cat":"FUSING", "pm":"false", "life":"0k", "name":"Thermopile", "ref":"AW100183"},
-		{"cat":"FUSING", "pm":"false", "life":"0k", "name":"Thermostat", "ref":"AW110044"}
-	]
+  "name": "IM C8000",
+  "sysname": "RIMC8000",
+  "version": 1759926949,
+  "family": "Charis C3",
+  "brand": "RICOH",
+  "logo": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABKFJREFUeNrs2kFy2zYUgGHak33ZA2RCb7oNc4JIy66inqDSCWyfwNEJZJ9AygmsrrKkcoIq227MTg9Q9gQtXvs84WhIPECCRKX5vxk2mdoDgngPDyCYLAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKdwIf/57eWPhftj6q5X7io6fm/kaaPWS3xy19Zdmx/++NhYN3f3Hfnadm28j3kYfY6Ju17rc5Tuyjt+deMu6d9nd63dfbYR98i1z2+1/aJjzBodh1rHRMajjnyOad94u7ZWge34xm8lfbpoBaJKnFzSybnvwbWDd54EuAh8UBmsaw3IPqSPa3c99PVXg3LnCYxlo+OxCZwYffGQZBoHjsvfnh+PpS+XR6wuMlC/anCOwrU9cdeT++vygOBnOoNvuqqFzHh3Ldxfnw4I/nMVrVxblSbTWQhNgEYzuOvykQFdHOOBXZsS9MeeJctaqrrc7y4F2u9KkyN0fOqARJCJMTmHBHgRUrqskqOzfNGz3uZaOmeJg2/NRgnGh771V8vsO21HAjjvWOsrI8HWWta3PWv4nWdiPLrfexOz/xgqAUyyKXEPU3vWrVHC4N8YwZdgzlyf1kaf/52xrj0JfN6xabWqy6xvM6YJ9961vdYxyXvakOXgKmTDPPQSEJIEvvJXJAp+7ts0avDHVvB3+t3sVgjr7USXi1VA21uj8lnP8/UkQMpAe9x4ZlPWVY73dG0k2TwiwdbGXmk6ZAK8SNWQlmbfWpnCO98mzw32faIqMzHen2NL9oOnoshbxiSiauVaoYZPgNahyLVRMj8k6m95giSzXic/7XkGYN1zHdG/6uQJoDv9n3c6koccCMWsyZ77W4H5/URVM3rDJhXD9T87RzEVoIjczcvG6jZF8FsbJut+56w+wR7pqAmwDXjAOvty9r05wgCmKqNDKL7qCiAz2ZWxmefARx7wIcVGrO/d2iijr09U4qMDGXASGrOspPoWEP8aqO++Y0+H5dj3UTeHx+Cb4ZMUR876Gtns+SbS27cDN4nncw6gAzT2LAnysFXApm0fvxg/X5wo0cqI2Z8b5wr1kMfBlwfMEl8SlMdIAq1AtRGcZYJbWQc9y4gqtzCWjXk2oMsDgtEYSZBrEowS9/kn4+dTXYaKwBk62j3E0qPhufUu7ruHfka2PlptQv9xxzm8BfS930oSPGX9XwJloGapHlSqj25Gl8aaO9GPMZ871thSN42j59kpG8z2Blb+NZL7f688AZQ25LPuSpemWvcOpV7XxszfBiTz+VaAjkrQGCVzmngpsO75nAjysaXauRYa2GJnA1vu3EcS7d44m7jRNmUS/NlqvzA2feMhvwImS4DWnsDK5mXKPYGeM1wZAYp9/Rt13OfWWOpi7yGHY2cR/GQJ0ArIrfFrVeIkaDRA3+u99wmS9Ftm+lXfGYY8m7veaCKssvjj4LV1j6FcZP8zujsvW7P5u+zLBx5JkL9agd/uOxM1kctWqX/7/FqX/fddotH2NxkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+bf8IMAB9etbSFmp1YAAAAABJRU5ErkJggg==",
+  "type": "col",
+  "consumables": [
+    {
+      "name": "Toner BK",
+      "life": "",
+      "ref": "MPC8000BK",
+      "cde": "",
+      "cdext": ""
+    },
+    {
+      "name": "Toner C",
+      "life": "",
+      "ref": "MPC8000C",
+      "cde": "",
+      "cdext": ""
+    },
+    {
+      "name": "Toner M",
+      "life": "",
+      "ref": "MPC8000M",
+      "cde": "1",
+      "cdext": ""
+    },
+    {
+      "name": "Toner Y",
+      "life": "",
+      "ref": "MPC8000Y",
+      "cde": "",
+      "cdext": ""
+    }
+  ],
+  "parts": [
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Charge Unit",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2583531",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Cleaning Unit",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2582332",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev Unit",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN0150",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Drum DIA60",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2589510",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev BK",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2589640",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev C",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2589660",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev M",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2589670",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev Y",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2589680",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev Filter x4",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1363431",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Blade Cleaning",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362365",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Oil Supply Roll",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2582402",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Coating Bar",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2582411",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Blade Apply",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362441",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Seal Apply Blade Front",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362446",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Seal Apply Blade Rear",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362447",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Seal Cleaning Blade Front",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362448",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Seal Cleaning Blade Rear",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D1362449",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Gear n1",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN2462",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Gear n2",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN2408",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Gear n3 (x2)",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN2461",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Gear n4",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN2463",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Joint Cleaning Unit",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2582459",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Hot Roller",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN4169",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Ball Bering Hot Roller (x2)",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AE030059",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Heat Roller",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN4315",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Heat roller Flange Front",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2584464",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Heat roller Flange Rear",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2584465",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Pressure Roller",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0CN4218",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Ball Bering Pressure Roller (x2)",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AE030059",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Flat Belt",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2584480",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermistor",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AW100179",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermopile",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AW100183",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermostat",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AW110044",
+      "cde": "",
+      "cde2": ""
+    }
+  ],
+  "schems": []
 }

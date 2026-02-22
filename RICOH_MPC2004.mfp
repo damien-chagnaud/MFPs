@@ -1,31 +1,163 @@
 {
-    "name": "MP C2004",
-	"sysname": "RMPC2004",
-	"family": "Metis C2yz",
-	"version": 1.0,
-    "brand": "RICOH",
-    "type": "col",
-    "path": " ",
-    "raw": " ",
-    "data_cons": "\n    Toner: MPC2503 \n    Waste Toner: D2426400",
-    "data_units": " ",
-	"data_parts": " ",
-	"data_div": " ",
-	"parts": [
-		{"cat":"PCU", "pm":"true", "life":"0k", "name":"PCU CMYK", "ref":"D2442250"},
-		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit K", "ref":"D2443020"},
-		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit C", "ref":"D2443021"},
-		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit M", "ref":"D2443022"},
-		{"cat":"DEV", "pm":"true", "life":"0k", "name":"Dev Unit Y", "ref":"D2443023"},
-		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper BK", "ref":"D0BQ3242"},
-		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper C", "ref":"D0BQ3272"},
-		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper M", "ref":"D0BQ3282"},
-		{"cat":"TONER SUPPLY", "pm":"false", "life":"0k", "name":"Toner Hopper Y", "ref":"D0BQ3312"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Pressure Roller", "ref":"AE020261"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Ball Bering x2", "ref":"AE030074"},
-		{"cat":"FUSING", "pm":"true", "life":"0k", "name":"Sleeve", "ref":"D2394042"},
-		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Clean ITB", "ref":"D0BQ6141"},
-		{"cat":"ITB", "pm":"true", "life":"0k", "name":"Image Tranfert Belt Unit", "ref":"D2416005"},
-		{"cat":"PTR", "pm":"true", "life":"0k", "name":"Paper Transfert Roller", "ref":"D0BQ6212"}
-	]
+  "name": "MP C2004",
+  "sysname": "RMPC2004",
+  "version": 1759926555,
+  "family": "Metis C2yz",
+  "brand": "RICOH",
+  "logo": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABKFJREFUeNrs2kFy2zYUgGHak33ZA2RCb7oNc4JIy66inqDSCWyfwNEJZJ9AygmsrrKkcoIq227MTg9Q9gQtXvs84WhIPECCRKX5vxk2mdoDgngPDyCYLAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKdwIf/57eWPhftj6q5X7io6fm/kaaPWS3xy19Zdmx/++NhYN3f3Hfnadm28j3kYfY6Ju17rc5Tuyjt+deMu6d9nd63dfbYR98i1z2+1/aJjzBodh1rHRMajjnyOad94u7ZWge34xm8lfbpoBaJKnFzSybnvwbWDd54EuAh8UBmsaw3IPqSPa3c99PVXg3LnCYxlo+OxCZwYffGQZBoHjsvfnh+PpS+XR6wuMlC/anCOwrU9cdeT++vygOBnOoNvuqqFzHh3Ldxfnw4I/nMVrVxblSbTWQhNgEYzuOvykQFdHOOBXZsS9MeeJctaqrrc7y4F2u9KkyN0fOqARJCJMTmHBHgRUrqskqOzfNGz3uZaOmeJg2/NRgnGh771V8vsO21HAjjvWOsrI8HWWta3PWv4nWdiPLrfexOz/xgqAUyyKXEPU3vWrVHC4N8YwZdgzlyf1kaf/52xrj0JfN6xabWqy6xvM6YJ9961vdYxyXvakOXgKmTDPPQSEJIEvvJXJAp+7ts0avDHVvB3+t3sVgjr7USXi1VA21uj8lnP8/UkQMpAe9x4ZlPWVY73dG0k2TwiwdbGXmk6ZAK8SNWQlmbfWpnCO98mzw32faIqMzHen2NL9oOnoshbxiSiauVaoYZPgNahyLVRMj8k6m95giSzXic/7XkGYN1zHdG/6uQJoDv9n3c6koccCMWsyZ77W4H5/URVM3rDJhXD9T87RzEVoIjczcvG6jZF8FsbJut+56w+wR7pqAmwDXjAOvty9r05wgCmKqNDKL7qCiAz2ZWxmefARx7wIcVGrO/d2iijr09U4qMDGXASGrOspPoWEP8aqO++Y0+H5dj3UTeHx+Cb4ZMUR876Gtns+SbS27cDN4nncw6gAzT2LAnysFXApm0fvxg/X5wo0cqI2Z8b5wr1kMfBlwfMEl8SlMdIAq1AtRGcZYJbWQc9y4gqtzCWjXk2oMsDgtEYSZBrEowS9/kn4+dTXYaKwBk62j3E0qPhufUu7ruHfka2PlptQv9xxzm8BfS930oSPGX9XwJloGapHlSqj25Gl8aaO9GPMZ871thSN42j59kpG8z2Blb+NZL7f688AZQ25LPuSpemWvcOpV7XxszfBiTz+VaAjkrQGCVzmngpsO75nAjysaXauRYa2GJnA1vu3EcS7d44m7jRNmUS/NlqvzA2feMhvwImS4DWnsDK5mXKPYGeM1wZAYp9/Rt13OfWWOpi7yGHY2cR/GQJ0ArIrfFrVeIkaDRA3+u99wmS9Ftm+lXfGYY8m7veaCKssvjj4LV1j6FcZP8zujsvW7P5u+zLBx5JkL9agd/uOxM1kctWqX/7/FqX/fddotH2NxkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+bf8IMAB9etbSFmp1YAAAAABJRU5ErkJggg==",
+  "type": "col",
+  "consumables": [],
+  "parts": [
+    {
+      "cat": "PCU",
+      "pm": "true",
+      "name": "PCU CMYK",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2442250",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "DEV",
+      "pm": "true",
+      "name": "Dev Unit K",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2443020",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "DEV",
+      "pm": "true",
+      "name": "Dev Unit C",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2443021",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "DEV",
+      "pm": "true",
+      "name": "Dev Unit M",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2443022",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "DEV",
+      "pm": "true",
+      "name": "Dev Unit Y",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2443023",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "TONER SUPPLY",
+      "pm": "false",
+      "name": "Toner Hopper BK",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ3242",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "TONER SUPPLY",
+      "pm": "false",
+      "name": "Toner Hopper C",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ3272",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "TONER SUPPLY",
+      "pm": "false",
+      "name": "Toner Hopper M",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ3282",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "TONER SUPPLY",
+      "pm": "false",
+      "name": "Toner Hopper Y",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ3312",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Pressure Roller",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AE020261",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Ball Bering x2",
+      "groupname": "",
+      "life": "0k",
+      "ref": "AE030074",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Sleeve",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2394042",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "ITB",
+      "pm": "true",
+      "name": "Clean ITB",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ6141",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "ITB",
+      "pm": "true",
+      "name": "Image Tranfert Belt Unit",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D2416005",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PTR",
+      "pm": "true",
+      "name": "Paper Transfert Roller",
+      "groupname": "",
+      "life": "0k",
+      "ref": "D0BQ6212",
+      "cde": "",
+      "cde2": ""
+    }
+  ],
+  "schems": []
 }

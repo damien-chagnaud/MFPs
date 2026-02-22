@@ -1,3 +1,3 @@
 # MFPs
 
-Mfp files repositories for MfpInfos App
+Mfp file deposits for the MfpInfos and MfpInfosEdit application

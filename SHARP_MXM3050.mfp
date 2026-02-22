@@ -1,30 +1,153 @@
 {
-    "name": "MX-M3050",
-	"sysname": "SMX-M3050",
-	"family": "BGriffin",
-	"version": 1.0,
-    "brand": "SHARP",
-    "type": "bk",
-    "path": " ",
-    "raw": " ",
-    "data_cons": "\n   Toner: MX561GT \n\n   Waste Toner:MX609HB (300K)",
-    "data_units": " ",
-	"data_parts": " ",
-	"data_div": " ",
-	"parts": [
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Drum", "ref":"MX560DR"},
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Dev K", "ref":"MX561GV"},
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Net Kit", "ref":"MX609CH"},
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Charge Corona", "ref":"MX609MC"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Fusion Belt", "ref":"MX609FB"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Hot Roll", "ref":"MX609HR"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Pressure Roll", "ref":"MX609LH"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Sub heat roller thermistor", "area":"Back down", "ref":"RDTCT0034QSZZ"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermostat", "area":"Down (x2)", "ref":"RTHM-0055FCZZ"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermistor", "area":"Left Down Middle (x2)", "ref":"RDTCT0032QSZZ"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Non-contact thermistor", "area":"Lower Middle Left", "ref":"RDTCT0033QSZZ"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Non-contact thermistor", "area":"Lower Back", "ref":"RDTCT0032QSZZ"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Sub heat roller thermistor", "area":"Back Front", "ref":"RDTCT0034QSZZ"},
-		{"cat":"PTU", "pm":"true", "life":"250k", "name":"PTR", "ref":"MX609TK"}
-	]
+  "name": "MX-M3050",
+  "sysname": "SMX-M3050",
+  "version": 1759926522,
+  "family": "BGriffin",
+  "brand": "SHARP",
+  "logo": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABP1JREFUeNrs2k1u2zgUwHElyL4u0OUsXGD2Y5/AzgnqnmCcE8Q+geMT2D5B3BNEPUHcE9TdDzAaYJaz0A1m+AaPBUNTFPXVdPH/AYKbWpYo8pF8pJ1lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZ1VXfCP7/8OjIvE/1TXkfeKYUe2bu//zhRpS/qzq2vs6mfcoB7jM3LuO31ryouujQvv5tj3qJMNiC+SKHMcbIFc67r+2TOOSY+8HPo/83nbxM/vzIvHyrebluOpvV0dupI6uccuP7O6XCTLm1grp8nBYBG7GOLG9Y5mkLcmes/mH9vAu9vzfsPiRX/b0UAXCX2yK+RUyRQp+ZaRdtytFRoHRy9AJv3dH15LgmCtT9KXHtD/fMAjZ9pJP4MHmvelzrYvUK5ZAh/lEbXduibXFNG3z+1E1wGgPEUmN/dIUt6xpU9zN/vzSHD7lajq6yJvteej1eJwb0w53bpeVutF7++pub4KKNh5LPzhCA96vXleFtx/TISCC+C7KbBPFZ6Q66dZ07eELvQOdZW9mGI5Kdh448CU08ZCfhHDfDGqqYyneflyE15DpGpaKGJXRbJU041199qh55ERoO9PwLEGmmiw4dEz07mcuklfkGlEFIB5phqBa7tjX6CoX8U6KlVq5ax5iuD0MY61UwJXa5f6PPFpoSLEeBQkaD5Q5QdKTbauzJ9GDerLbQQqY0/G6rCdThf+FOaKd/evHeK9MR78/4xJSFsOSKNa5LCPub9Wm4A7L2huwkbFEt9QInwT5r9l4mfnw9U0aE59c72RHOOPPcqkhB+7LlMS+08VQGQS9Bpx+pyj11NHvEyAKShzAdvde7o2hgTPTbmmuvUtfUAVoGK3nvr7q0G7qgqIWy6wWU+81WvV3gBVde5chucEc/awcrA6mpWsVnnL7mL0AiQaW+91bn9XofOccdhSJY3M9kHeIVduFDi9yWQ5ed29OqaEJprL5yGTq27sybLxwYdrM0GlHTGfWwjSBps5EaIBoPt0b9po45bBMZUAyqUZ5wa7BVsUjaCet5IudioimwEvU3cTyk178ordgL7Kr9dhm9D+cxNYMiUYftolxvOci8PFNINjllNgRexjaIGO4GbhHOWPecUyQmhM5XuIqOKHR2LUOPXONUs3W17nbVe86QkUHv/vZPMLc3/FU4yV1QsN74Hhzn/qaahf9Sav+/dvEYJoU6lsvVdViSY36eXFtPjts8v3W683j8KrEc3OirYhrZfMDRdqhRd17eJdoHnkBHtr9Te3ldCaM5dm898q9ndW2rGvx56w0xzn+IiCfR6f2xzYmUjWgt9djaQYtmnBMxxyM0V5wH9YffUpIdphv3U1w6hPneRxbfapcwTmTqGCgL9dlHuL1PUwQbBtbccajofTZw1/CjS83/UCmAXSIDuGjZYnvW8Q6ijxm3NBs9El3jjgTrGZ5tvuZ3k2s5ZsjxwtnDvdNjssiNVaFBNWyQ6bR7yIZB5H1ru5MWCZtOmkbQOpjWd7P+vq/1v7LrSAJxrPjdzA7zJL4Lcpd+bQGVLb/tmM9CKpU3V8rFIbajIN3UXX+50SZa8X/Mk5zN19/R+YRVbumUV92/1yx+97zKr+AEKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAQ/wkwAGbMMK3rfNAPAAAAAElFTkSuQmCC",
+  "type": "bk",
+  "consumables": [],
+  "parts": [
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Drum",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX560DR",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev K",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX561GV",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Net Kit",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX609CH",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Charge Corona",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX609MC",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Fusion Belt",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX609FB",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Hot Roll",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX609HR",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Pressure Roll",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX609LH",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Sub heat roller thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0034QSZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermostat",
+      "groupname": "",
+      "life": "0",
+      "ref": "RTHM-0055FCZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0032QSZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Non-contact thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0033QSZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Non-contact thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0032QSZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Sub heat roller thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0034QSZZ",
+      "cde": "",
+      "cde2": ""
+    },
+    {
+      "cat": "PTU",
+      "pm": "true",
+      "name": "PTR",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX609TK",
+      "cde": "",
+      "cde2": ""
+    }
+  ],
+  "schems": []
 }
