@@ -1,47 +1,289 @@
 {
-    "name": "MX-5051",
-	"sysname": "SMX-5051",
-	"family": "Griffin CR4.5",
-	"version": 1745848000,
-    "brand": "SHARP",
-    "type": "col",
-    "path": " ",
-    "raw": " ",
-    "data_cons": "\n   Toner: MX-61",
-	"consumables":[
-		{"name":"Toner BK", "life":"", "ref":"MX-61GT", "cde":"1DBHMX61GTBA", "cdext":""},
-		{"name":"Toner C", "life":"", "ref":"MX-61GT", "cde":"1DCHMX61GTCA", "cdext":""},
-		{"name":"Toner M", "life":"", "ref":"MX-61GT", "cde":"1DCHMX61GTMA", "cdext":""},
-		{"name":"Toner Y", "life":"", "ref":"MX-61GT", "cde":"1DCHMX61YA", "cdext":""},
-		{"name":"Waste Toner", "life":"50k", "ref":"MX601HB", "cde":"1DXHMX601HB", "cdext":""}
-	],
-    "data_units": " ",
-	"data_parts": " ",
-	"data_div": " ",
-	"parts": [
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Drum", "ref":"MX60GRSA", "cde":"1DAHMX60GRSA"},
-		{"cat":"PCDU", "pm":"true", "life":"250k", "name":"Charge Kit", "ref":"MX607MK", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"true", "life":"1800k", "name":"Dev K", "ref":"MX61GVBA", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"true", "life":"1800k", "name":"Dev CMY", "ref":"MX61GVSA", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit Bk", "ref":"DUNT-9290DS23", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit C", "ref":"DUNT-9291DS23", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit M", "ref":"DUNT-9292DS23", "cde":"1DXHMX60"},
-		{"cat":"PCDU", "pm":"false", "life":"0", "name":"Dev Unit Y", "ref":"DUNT-9293DS23", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Fusing belt", "ref":"MX602FB", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Pressure Roll", "ref":"MX601LH", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermistor", "area":"Left Upper Back", "ref":"RDTCT0255FCZZ", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Double Thermostat", "area":"Left Down Back", "ref":"RTHM-0057FCZZ", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermistor", "area":"Left Down Middle (x2)", "ref":"RDTCT0032QSZZ", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermostat", "area":"Right Down Middle", "ref":"RTHM-0012QSZZ", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"false", "life":"0", "name":"Thermostat", "area":"Right Down Back", "ref":"RDTCT0033QSZZ", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Paper enter guide", "ref":"CGIDH2832DS51", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Envelope Spring", "ref":"MSPRT4588FCZ1", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Separate spring", "ref":"MSPRT4589FCZ1", "cde":"1DXHMX60"},
-		{"cat":"FUSING", "pm":"true", "life":"300k", "name":"Separate exit guide", "ref":"CPLTM9201DS51", "cde":"1DXHMX60"},
-		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Belt", "ref":"MX601B1", "cde":"1DXHMX60"},
-		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Blade Cleanner", "ref":"MX601TL", "cde":"1DXHMX60"},
-		{"cat":"ITB", "pm":"true", "life":"300k", "name":"Primary transfert Clean Unit", "ref":"CFRM-1765DS54", "cde":"CFRM-1765DS54"},
-		{"cat":"PTU", "pm":"true", "life":"300k", "name":"PTC Kit", "ref":"MX608CU", "cde":"1DXHMX60"},
-		{"cat":"PTU", "pm":"true", "life":"300k", "name":"Secondary transfert Belt", "ref":"MX607U2", "cde":"1DXHMX60"}
-	]
+  "name": "MX-5051",
+  "sysname": "SMX-5051",
+  "version": 1766757063,
+  "family": "Griffin CR4.5",
+  "brand": "SHARP",
+  "logo": "",
+  "type": "col",
+  "consumables": [
+    {
+      "name": "Toner Y",
+      "life": "15k",
+      "ref": "MX-61GT",
+      "cde": "1DCHMX61YA",
+      "cdext": ""
+    },
+    {
+      "name": "Toner C",
+      "life": "15k",
+      "ref": "MX-61GT",
+      "cde": "1DCHMX61GTCA",
+      "cdext": ""
+    },
+    {
+      "name": "Toner M",
+      "life": "15k",
+      "ref": "MX-61GT",
+      "cde": "1DCHMX61GTMA",
+      "cdext": ""
+    },
+    {
+      "name": "Toner Y",
+      "life": "15k",
+      "ref": "MX-61GT",
+      "cde": "1DCHMX61YA",
+      "cdext": ""
+    },
+    {
+      "name": "Waste Toner",
+      "life": "50k",
+      "ref": "MX601HB",
+      "cde": "1DXHMX601HB",
+      "cdext": ""
+    }
+  ],
+  "parts": [
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Drum",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX60GRSA",
+      "cde": "1DAHMX60GRSA",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Charge Kit",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX607MK",
+      "cde": "1DXHMX607MK",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev K",
+      "groupname": "",
+      "life": "1800k",
+      "ref": "MX-61GVBA",
+      "cde": "1DDHMX61GVBA",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "true",
+      "name": "Dev CMY",
+      "groupname": "",
+      "life": "1800k",
+      "ref": "MX61GVSA",
+      "cde": "1DEHMX61GVSA",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "false",
+      "name": "Dev Unit Bk",
+      "groupname": "",
+      "life": "0",
+      "ref": "DUNT-9290DS23",
+      "cde": "DUNT-9290DS23",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "false",
+      "name": "Dev Unit C",
+      "groupname": "",
+      "life": "0",
+      "ref": "DUNT-9291DS23",
+      "cde": "DUNT-9291DS23",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "false",
+      "name": "Dev Unit M",
+      "groupname": "",
+      "life": "0",
+      "ref": "DUNT-9292DS23",
+      "cde": "DUNT-9292DS23",
+      "cde2": ""
+    },
+    {
+      "cat": "PCDU",
+      "pm": "false",
+      "name": "Dev Unit Y",
+      "groupname": "",
+      "life": "0",
+      "ref": "DUNT-9293DS23",
+      "cde": "DUNT-9293DS23",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Fusing belt",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX602FB",
+      "cde": "1DXHMX602FB",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Pressure Roll",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX601LH",
+      "cde": "1DXHMX601LH",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0255FCZZ",
+      "cde": "RDTCT0255FCZZ",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Double Thermostat",
+      "groupname": "",
+      "life": "0",
+      "ref": "RTHM-0057FCZZ",
+      "cde": "RTHM-0057FCZZ",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermistor",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0032QSZZ",
+      "cde": "RDTCT0032QSZZ",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermostat",
+      "groupname": "",
+      "life": "0",
+      "ref": "RTHM-0012QSZZ",
+      "cde": "RTHM-0012QSZZ",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "false",
+      "name": "Thermostat",
+      "groupname": "",
+      "life": "0",
+      "ref": "RDTCT0033QSZZ",
+      "cde": "RDTCT0033QSZZ",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Paper enter guide",
+      "groupname": "",
+      "life": "300k",
+      "ref": "CGIDH2832DS51",
+      "cde": "CGIDH2832DS51",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Envelope Spring",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MSPRT4588FCZ1",
+      "cde": "MSPRT4588FCZ1",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Separate spring",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MSPRT4589FCZ1",
+      "cde": "MSPRT4589FCZ1",
+      "cde2": ""
+    },
+    {
+      "cat": "FUSING",
+      "pm": "true",
+      "name": "Separate exit guide",
+      "groupname": "",
+      "life": "300k",
+      "ref": "CPLTM9201DS51",
+      "cde": "CPLTM9201DS51",
+      "cde2": ""
+    },
+    {
+      "cat": "ITB",
+      "pm": "true",
+      "name": "Primary transfert Belt",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX601B1",
+      "cde": "1DXHMX601B1",
+      "cde2": ""
+    },
+    {
+      "cat": "ITB",
+      "pm": "true",
+      "name": "Primary Transfert Clean Unit",
+      "groupname": "",
+      "life": "300k",
+      "ref": "CFRM-1765DS54",
+      "cde": "CFRM-1765DS54",
+      "cde2": ""
+    },
+    {
+      "cat": "PTU",
+      "pm": "true",
+      "name": "PTC Kit",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX608CU",
+      "cde": "1DXHMX608CU",
+      "cde2": ""
+    },
+    {
+      "cat": "PTU",
+      "pm": "true",
+      "name": "Secondary transfert Belt",
+      "groupname": "",
+      "life": "300k",
+      "ref": "MX607U2",
+      "cde": "1DXHMX607U2",
+      "cde2": ""
+    },
+    {
+      "cat": "ITB",
+      "pm": "true",
+      "name": "Primary Transfer Clean Kit",
+      "groupname": "",
+      "life": "250k",
+      "ref": "MX601TL",
+      "cde": "1DXHMX601TL",
+      "cde2": ""
+    }
+  ],
+  "schems": []
 }
